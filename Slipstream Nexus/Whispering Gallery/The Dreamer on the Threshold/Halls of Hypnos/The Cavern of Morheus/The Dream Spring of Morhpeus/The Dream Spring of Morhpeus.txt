@@ -1,0 +1,22 @@
+The Dream Spring of Morhpeus
+
+You allow yourself to slip beneath the obsidian surface, the dream taking hold as you descend into the depths of Morpheus' realm...
+"; if (preg_match('/fly|soar|wings?/i', $dream)) { echo "
+You find yourself soaring through an endless, star-speckled sky, borne aloft on great feathered wings. The sensation of flight is at once exhilarating and profoundly natural, as if this form were always meant to be yours. Far below, the dreamscapes of countless other minds unfold in a kaleidoscopic patchwork. You dip and glide between them, an unseen observer tasting the myriad flavors of mortal experience.
+
+"; } elseif (preg_match('/breathe underwater|mermaid|atlantis/i', $dream)) { echo "
+The waters close over your head and suddenly you can breathe, your legs fused into a shimmering silver tail. You dart through the aquatic realm with impossible speed and grace, coral castles and kelp forests blurring by. Swarms of phosphorescent fish trail in your wake, their light cutting through the gloom. In the distance, the soaring spires of a sunken city beckon - Atlantis, or some other drowned legend given form in Morpheus' domain.
+
+"; } elseif (preg_match('/invisible|unseen|shadow/i', $dream)) { echo "
+A strange tingling sensation washes over you, and suddenly your body fades from view. You have become a living shadow, intangible and utterly invisible. Unbound by physical form, you glide silently through the ever-shifting dreamscapes, privy to sights and secrets not meant for mortal eyes. The dreaming minds around you carry on, unaware of the phantom in their midst - a mote of living darkness sampling the forbidden fruits of the unconscious.
+
+"; } else { echo "
+The dream enfolds you like a lover's embrace, its substance pliant and responsive to your every whim. Fantastical vistas spring up as the merest whisper of a wish crosses your mind - here a floating crystal palace, there a bioluminescent forest where the very trees sing in voices of honey and starlight. You wander through the conjured wonders, marveling at the power of the unshackled psyche. In Morpheus' realm, you are at once creator and creation, dreamer and dream.
+
+"; } echo "
+With a gasp you break the surface of the obsidian pool, droplets scattering like liquid diamonds in the ethereal glow. The memory of the dream still clings to your mind, as gossamer-thin and precious as a spider's web jeweled with morning dew. You know that in the waking world its substance will dissolve like mist in the sun, but here in the heart of the Dreaming it remains forever crystallized - a shard of immortality to be savored again and again, whenever you dare to dive deep.
+
+"; } else { echo "
+The surface of the obsidian pool ripples, as if in anticipation. It yearns to receive your dream, to give it form and substance within Morpheus' twilight realm. You need only whisper your heart's desire to the waiting waters...
+
+"; } ?>
