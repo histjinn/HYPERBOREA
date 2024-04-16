@@ -1,5 +1,3 @@
-The Dream Spring of Morhpeus
-
 You allow yourself to slip beneath the obsidian surface, the dream taking hold as you descend into the depths of Morpheus' realm...
 "; if (preg_match('/fly|soar|wings?/i', $dream)) { echo "
 You find yourself soaring through an endless, star-speckled sky, borne aloft on great feathered wings. The sensation of flight is at once exhilarating and profoundly natural, as if this form were always meant to be yours. Far below, the dreamscapes of countless other minds unfold in a kaleidoscopic patchwork. You dip and glide between them, an unseen observer tasting the myriad flavors of mortal experience.
